@@ -179,7 +179,7 @@ export default function Repository({ data, onRefresh }) {
 
 ![1](https://user-images.githubusercontent.com/48495838/69454079-1cc79300-0d44-11ea-9306-eef85cb50e38.JPG)
 
-<br><br>
+<br>
 
 ![2](https://user-images.githubusercontent.com/48495838/69454082-1cc79300-0d44-11ea-941b-a7170af6f198.JPG)
 <br>
