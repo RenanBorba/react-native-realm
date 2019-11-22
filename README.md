@@ -72,7 +72,6 @@ export default function Main() {
   }
 
   async function handleAddRepository() {
-    //console.tron.log(input);
     try {
       const response = await api.get(`/repos/${input}`);
 
@@ -174,7 +173,7 @@ export default function Repository({ data, onRefresh }) {
 }
 ```
 
-<br<br>
+<br><br>
 
 ## Interface principal
 
