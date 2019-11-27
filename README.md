@@ -1,6 +1,6 @@
 # proj-react-mobile-realm
 # Projeto Portfólio - Aplicação RepOff Mobile React Native com o RealmDB (Offline Storage)
-Aplicação Front-end Mobile desenvolvida em React Native voltada para a busca de respositórios no Github, permitindo assim adicionar repositórios ao aplicativo e consultá-los de maneira offline. 
+Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca de respositórios no Github, permitindo assim adicionar repositórios ao aplicativo e consultá-los de maneira offline. 
 <ul> 
   <li>Realm</li>
   <li>Axios</li>
