@@ -185,5 +185,5 @@ export default function Repository({ data, onRefresh }) {
 <br>
 
 <br><br>    
-Renan Borba. 
+Renan Borba.
 
