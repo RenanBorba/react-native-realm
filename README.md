@@ -13,7 +13,7 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
   <li>useState</li>
   <li>useEffect</li>
 </ul>
-<br>
+<br><br>
 
 ## src/pages/Main/index.js 
 
