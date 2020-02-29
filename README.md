@@ -182,7 +182,7 @@ export default function Repository({ data, onRefresh }) {
 <br>
 
 ![2](https://user-images.githubusercontent.com/48495838/69454082-1cc79300-0d44-11ea-941b-a7170af6f198.JPG)
-<br>
+<br> 
 
 <br><br>    
 Renan Borba.
