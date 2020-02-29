@@ -4,7 +4,7 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
 <ul> 
   <li>Realm</li>
   <li>Axios</li>
-  <li>Github API repos</li>
+  <li>Github API</li>
   <li>react-native-vector-icons</li>
   <li>react-native-linear-gradient</li>
   <li>Components</li>
@@ -13,7 +13,7 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
   <li>useState</li>
   <li>useEffect</li>
 </ul>
-<br><br> 
+<br><br>
 
 ## src/pages/Main/index.js 
 
