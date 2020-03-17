@@ -47,5 +47,5 @@ export const RefreshText = styled.Text`
   font-size: 14px;
   font-weight: bold;
   color: #4169E2;
-  margin-left: 5px;
+  margin-left: 5px
 `;
