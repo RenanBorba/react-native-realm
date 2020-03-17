@@ -54,5 +54,5 @@ export const List = styled.FlatList.attrs({
   },
   showsVerticalScrollIndicator: false
 })`
-  margin-top: 20px;
+  margin-top: 20px
 `;
