@@ -126,7 +126,7 @@ export default function Main() {
 
     </Container>
   );
-}
+};
 ```
 
 <br><br>
@@ -170,7 +170,7 @@ export default function Repository({ data, onRefresh }) {
       </Refresh>
     </Container>
   );
-}
+};
 ```
 
 <br><br>
