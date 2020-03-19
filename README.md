@@ -15,23 +15,92 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
 </ul>
 <br><br> 
 
-## src/pages/Main/index.js 
 
+## src/components/Repository/index.js 
+
+```js
+import React from 'react';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+import {
+    Container,
+    Name,
+    Description,
+    Stats,
+    Stat,
+    StatCount,
+    Refresh,
+    RefreshText } from './styles';
+
+export default function Repository({ data, onRefresh }) {
+  return (
+    <Container>
+      <Name>{ data.name }</Name>
+      <Description>{ data.description }</Description>
+
+      <Stats>
+        <Stat>
+          <Icon name="star" size={16} color="#333" />
+          <StatCount>{ data.stars }</StatCount>
+        </Stat>
+        <Stat>
+          <Icon name="code-fork" size={16} color="#333" />
+          <StatCount>{ data.forks }</StatCount>
+        </Stat>
+      </Stats>
+
+      <Refresh onPress={ onRefresh }>
+        <Icon name="refresh" color="#4169E2" size={16} />
+        <RefreshText>ATUALIZAR</RefreshText>
+      </Refresh>
+    </Container>
+  );
+};
+```
+
+<br><br>
+
+
+## src/schemas/RepositorySchema.js 
+```js
+export default class RepositorySchema {
+  static schema = {
+    name: 'Repository',
+    primaryKey: 'id',
+    properties: {
+      id: { type: 'int', indexed: true },
+      name: 'string',
+      fullName: 'string',
+      description: 'string',
+      stars: 'int',
+      forks: 'int',
+    },
+  };
+};
+```
+
+
+<br><br>
+
+
+## src/pages/Main/index.js 
 ```js
 import React, { useState, useEffect } from 'react';
 import { Keyboard } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import api from "~/services/api";
-import getRealm from "~/services/realm";
-import Repository from "~/components/Repository";
-import {
-  Container,
-  Title,
-  Form,
-  Input,
-  Submit,
-  List } from "./styles";
+import api from '~/services/api';
+import getRealm from '~/services/realm';
+import Repository from '~/components/Repository';
+import 
+  {
+    Container,
+    Title,
+    Form,
+    Input,
+    Submit,
+    List
+  } from './styles';
 
 export default function Main() {
   const [input, setInput] = useState('');
@@ -44,7 +113,7 @@ export default function Main() {
 
       const data =
       // Ordenar por estrelas
-        realm.objects('Repository').sorted("stars", true);
+        realm.objects('Repository').sorted('stars', true);
 
       setRepositories(data);
     }
@@ -72,6 +141,7 @@ export default function Main() {
   }
 
   async function handleAddRepository() {
+    //console.tron.log(input);
     try {
       const response = await api.get(`/repos/${input}`);
 
@@ -131,49 +201,6 @@ export default function Main() {
 
 <br><br>
 
-## src/components/Repository/index.js 
-
-```js
-import React from 'react';
-import Icon from 'react-native-vector-icons/FontAwesome';
-
-import {
-    Container,
-    Name,
-    Description,
-    Stats,
-    Stat,
-    StatCount,
-    Refresh,
-    RefreshText } from "./styles";
-
-export default function Repository({ data, onRefresh }) {
-  return (
-    <Container>
-      <Name>{ data.name }</Name>
-      <Description>{ data.description }</Description>
-
-      <Stats>
-        <Stat>
-          <Icon name="star" size={16} color="#333" />
-          <StatCount>{ data.stars }</StatCount>
-        </Stat>
-        <Stat>
-          <Icon name="code-fork" size={16} color="#333" />
-          <StatCount>{ data.forks }</StatCount>
-        </Stat>
-      </Stats>
-
-      <Refresh onPress={ onRefresh }>
-        <Icon name="refresh" color="#4169E2" size={16} />
-        <RefreshText>ATUALIZAR</RefreshText>
-      </Refresh>
-    </Container>
-  );
-};
-```
-
-<br><br>
 
 ## Interface principal
 
