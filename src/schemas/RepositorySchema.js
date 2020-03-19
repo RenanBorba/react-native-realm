@@ -11,4 +11,4 @@ export default class RepositorySchema {
       forks: 'int',
     },
   };
-}
+};
