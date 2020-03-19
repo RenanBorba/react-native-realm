@@ -9,7 +9,7 @@ import {
     Stat,
     StatCount,
     Refresh,
-    RefreshText } from "./styles";
+    RefreshText } from './styles';
 
 export default function Repository({ data, onRefresh }) {
   return (

@@ -3,9 +3,9 @@ import LinearGradient from 'react-native-linear-gradient';
 import { getStatusBarHeight } from 'react-native-status-bar-height';
 
 export const Container = styled(LinearGradient).attrs({
-  colors: ["#4169E2", "#6AD2C2"],
-  start: {x: 0, y: 0},
-  end: {x: 1, y: 1}
+  colors: ['#4169E2', '#6AD2C2'],
+  start: { x: 0, y: 0 },
+  end: { x: 1, y: 1 }
 })`
   flex: 1;
   padding-top: ${30 + getStatusBarHeight(true)}px
@@ -27,7 +27,7 @@ export const Form = styled.View`
 `;
 
 export const Input = styled.TextInput.attrs({
-  placeholderTextColor: "#999",
+  placeholderTextColor:'#999'
 })`
 
   flex: 1;
@@ -37,7 +37,7 @@ export const Input = styled.TextInput.attrs({
   color: #333;
   background: #FFF;
   border: 2px solid
-    ${props => (props.error ? "#FF7171" : "#FFF")}
+    ${props => (props.error ? '#FF7171' : '#FFF')}
 `;
 
 export const Submit = styled.TouchableOpacity`
@@ -50,7 +50,7 @@ export const Submit = styled.TouchableOpacity`
 
 export const List = styled.FlatList.attrs({
   contentContainerStyle: {
-    paddingHorizontal: 20,
+    paddingHorizontal: 20
   },
   showsVerticalScrollIndicator: false
 })`

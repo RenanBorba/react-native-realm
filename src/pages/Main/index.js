@@ -2,16 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { Keyboard } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import api from "~/services/api";
-import getRealm from "~/services/realm";
-import Repository from "~/components/Repository";
-import {
-  Container,
-  Title,
-  Form,
-  Input,
-  Submit,
-  List } from "./styles";
+import api from '~/services/api';
+import getRealm from '~/services/realm';
+import Repository from '~/components/Repository';
+import 
+  {
+    Container,
+    Title,
+    Form,
+    Input,
+    Submit,
+    List
+  } from './styles';
 
 export default function Main() {
   const [input, setInput] = useState('');
@@ -24,7 +26,7 @@ export default function Main() {
 
       const data =
       // Ordenar por estrelas
-        realm.objects('Repository').sorted("stars", true);
+        realm.objects('Repository').sorted('stars', true);
 
       setRepositories(data);
     }
