@@ -17,12 +17,11 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
 
 
 ## src/components/Repository/index.js 
-
 ```js
 import React from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome';
-
-import {
+import
+  {
     Container,
     Name,
     Description,
@@ -30,7 +29,8 @@ import {
     Stat,
     StatCount,
     Refresh,
-    RefreshText } from './styles';
+    RefreshText
+  } from './styles';
 
 export default function Repository({ data, onRefresh }) {
   return (
@@ -73,7 +73,7 @@ export default class RepositorySchema {
       fullName: 'string',
       description: 'string',
       stars: 'int',
-      forks: 'int',
+      forks: 'int'
     },
   };
 };
@@ -92,7 +92,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import api from '~/services/api';
 import getRealm from '~/services/realm';
 import Repository from '~/components/Repository';
-import 
+import
   {
     Container,
     Title,
@@ -112,7 +112,7 @@ export default function Main() {
       const realm = await getRealm();
 
       const data =
-      // Ordenar por estrelas
+        // Ordenar por estrelas
         realm.objects('Repository').sorted('stars', true);
 
       setRepositories(data);
@@ -128,7 +128,7 @@ export default function Main() {
       fullName: repository.full_name,
       description: repository.description,
       stars: repository.stargazers_count,
-      forks: repository.forks_count,
+      forks: repository.forks_count
     };
 
     const realm = await getRealm();
@@ -187,10 +187,10 @@ export default function Main() {
         // Fecha teclado ao selecionar listagem
         keyboardShouldPersistTaps="handled"
         data={ repositories }
-        keyExtractor={ item => String(item.id) }
+        keyExtractor={item => String(item.id)}
         renderItem={({ item }) => (
           <Repository data={ item }
-            onRefresh={ () => handleRefreshRepository(item) }/>
+            onRefresh={() => handleRefreshRepository(item)} />
         )}
       />
 
