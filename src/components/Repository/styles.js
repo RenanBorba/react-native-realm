@@ -14,7 +14,7 @@ export const Name = styled.Text`
 `;
 
 export const Description = styled.Text.attrs({
-  numberOfLines: 2,
+  numberOfLines: 2
 })`
 
   color: #666;
@@ -35,7 +35,7 @@ export const Stat = styled.View`
 `;
 
 export const StatCount = styled.Text`
-  margin-left: 6px;
+  margin-left: 6px
 `;
 
 export const Refresh = styled.TouchableOpacity`

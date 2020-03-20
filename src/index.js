@@ -11,6 +11,7 @@ const App = () => (
       barStyle="light-content"
       translucent
       backgroundColor="transparent" />
+
     <Routes />
   </>
 );

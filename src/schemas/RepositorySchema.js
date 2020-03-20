@@ -8,7 +8,7 @@ export default class RepositorySchema {
       fullName: 'string',
       description: 'string',
       stars: 'int',
-      forks: 'int',
+      forks: 'int'
     },
   };
 };

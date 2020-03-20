@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import api from '~/services/api';
 import getRealm from '~/services/realm';
 import Repository from '~/components/Repository';
-import 
+import
   {
     Container,
     Title,
@@ -25,7 +25,7 @@ export default function Main() {
       const realm = await getRealm();
 
       const data =
-      // Ordenar por estrelas
+        // Ordenar por estrelas
         realm.objects('Repository').sorted('stars', true);
 
       setRepositories(data);
@@ -41,7 +41,7 @@ export default function Main() {
       fullName: repository.full_name,
       description: repository.description,
       stars: repository.stargazers_count,
-      forks: repository.forks_count,
+      forks: repository.forks_count
     };
 
     const realm = await getRealm();
@@ -100,10 +100,10 @@ export default function Main() {
         // Fecha teclado ao selecionar listagem
         keyboardShouldPersistTaps="handled"
         data={ repositories }
-        keyExtractor={ item => String(item.id) }
+        keyExtractor={item => String(item.id)}
         renderItem={({ item }) => (
           <Repository data={ item }
-            onRefresh={ () => handleRefreshRepository(item) }/>
+            onRefresh={() => handleRefreshRepository(item)} />
         )}
       />
 
