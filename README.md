@@ -6,12 +6,12 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
   <li>Realm</li>
   <li>Axios</li>
   <li>Github API</li>
-  <li>react-native-vector-icons</li>
-  <li>react-native-linear-gradient</li>
-  <li>styled-components</li>
   <li>FlatList</li>
   <li>useState</li>
   <li>useEffect</li>
+  <li>react-native-vector-icons</li>
+  <li>react-native-linear-gradient</li>
+  <li>styled-components</li>
 </ul>
 <br><br> 
 
