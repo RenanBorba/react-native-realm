@@ -14,7 +14,7 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
   <li>styled-components</li>
 </ul>
 <br><br> 
- 
+
 
 ## src/components/Repository/index.js 
 ```js
