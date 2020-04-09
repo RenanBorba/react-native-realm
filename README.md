@@ -13,7 +13,7 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
   <li>react-native-linear-gradient</li>
   <li>styled-components</li>
 </ul>
-<br><br> 
+<br><br>
 
 
 ## src/components/Repository/index.js 
