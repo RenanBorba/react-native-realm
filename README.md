@@ -1,5 +1,24 @@
+<div align="center">
+
 # Projeto - Aplicação RepOff Mobile React Native com o RealmDB (Offline Storage)
+
+</div>
+
+<br>
+
+<div align="center">
+  
+[![Build Status](https://img.shields.io/github/stars/RenanBorba/react-native-realm.svg)](https://github.com/RenanBorba/react-native-realm) [![Build Status](https://img.shields.io/github/forks/RenanBorba/react-native-realm.svg)](https://github.com/RenanBorba/react-native-realm) [![npm version](https://badge.fury.io/js/react-native.svg)](https://badge.fury.io/js/react-native)
+
+</div>
+
+<br>
+
 Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca de respositórios no Github, permitindo assim adicionar repositórios ao aplicativo e consultá-los de maneira offline. 
+
+<br><br>
+
+## :rocket: Tecnologias 
 <ul> 
   <li>Components</li>
   <li>Realm</li>
@@ -12,7 +31,11 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
   <li>react-native-linear-gradient</li>
   <li>styled-components</li>
 </ul>
+
 <br><br>
+
+#### Segue abaixo as principais estruturas e interface principal: 
+<br><br><br>
 
  
 ## src/components/Repository/index.js 
