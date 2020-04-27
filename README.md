@@ -7,7 +7,7 @@
 <br>
 
 <div align="center">
-  
+
 [![Build Status](https://img.shields.io/github/stars/RenanBorba/react-native-realm.svg)](https://github.com/RenanBorba/react-native-realm) [![Build Status](https://img.shields.io/github/forks/RenanBorba/react-native-realm.svg)](https://github.com/RenanBorba/react-native-realm) [![npm version](https://badge.fury.io/js/react-native.svg)](https://badge.fury.io/js/react-native)
 
 </div>
