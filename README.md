@@ -42,7 +42,8 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
 
 <br><br><br>
 
-## :mega: Segue abaixo as principais estruturas e interface principal: 
+## :mega: Segue abaixo as principais estruturas e interface principal:
+
 <br><br><br>
  
 ## src/components/Repository/index.js 
@@ -89,8 +90,7 @@ export default function Repository({ data, onRefresh }) {
 
 <br><br>
 
-
-## src/schemas/RepositorySchema.js 
+## src/schemas/RepositorySchema.js
 ```js
 export default class RepositorySchema {
   static schema = {
@@ -108,11 +108,9 @@ export default class RepositorySchema {
 };
 ```
 
-
 <br><br>
 
-
-## src/pages/Main/index.js 
+## src/pages/Main/index.js
 ```js
 import React, { useState, useEffect } from 'react';
 import { Keyboard } from 'react-native';
@@ -230,7 +228,6 @@ export default function Main() {
 
 <br><br>
 
-
 ## Interface principal
 
 <div align="center">
@@ -245,5 +242,5 @@ export default function Main() {
 
 <br>
 
-<br><br> 
+<br><br>
 Renan Borba.
