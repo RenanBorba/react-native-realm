@@ -14,12 +14,12 @@
 
 <br>
 
-Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca de respositórios no Github, permitindo assim adicionar repositórios ao aplicativo e consultá-los de maneira offline. 
+Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca de respositórios no Github, permitindo assim adicionar repositórios ao aplicativo e consultá-los de maneira offline.
 
 <br><br>
 
-## :rocket: Tecnologias 
-<ul> 
+## :rocket: Tecnologias
+<ul>
   <li>Components</li>
   <li>Realm</li>
   <li>Axios</li>
@@ -35,7 +35,7 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
 <br><br>
 
 ## :arrow_forward: Start
-<ul> 
+<ul>
   <li>npm install</li>
   <li>npm run start / npm start</li>
 </ul>
@@ -45,8 +45,8 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
 ## :mega: Segue abaixo as principais estruturas e interface principal:
 
 <br><br><br>
- 
-## src/components/Repository/index.js 
+
+## src/components/Repository/index.js
 ```js
 import React from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome';
