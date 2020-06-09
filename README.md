@@ -42,7 +42,7 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
 
 <br><br>
 
-## :punch: Como contribuir 
+## :punch: Como contribuir
 <ul>
   <li>Dê um fork nesse repositório</li>
   <li>Crie a sua branch com a feature</li>
