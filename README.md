@@ -18,6 +18,14 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
 
 <br><br>
 
+<div align="center">
+
+![realm](https://user-images.githubusercontent.com/48495838/84696473-f3aa6200-af22-11ea-849b-67f623ff9fe3.png)
+
+</div>
+
+<br><br>
+
 ## :rocket: Tecnologias
 <ul>
   <li>Components</li>
