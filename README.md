@@ -8,7 +8,11 @@
 
 <div align="center">
 
-[![Build Status](https://img.shields.io/github/stars/RenanBorba/react-native-realm.svg)](https://github.com/RenanBorba/react-native-realm) [![Build Status](https://img.shields.io/github/forks/RenanBorba/react-native-realm.svg)](https://github.com/RenanBorba/react-native-realm) [![npm version](https://badge.fury.io/js/react-native.svg)](https://badge.fury.io/js/react-native)
+[![Generic badge](https://img.shields.io/badge/Made%20by-Renan%20Borba-purple.svg)](https://shields.io/) [![Build Status](https://img.shields.io/github/stars/RenanBorba/react-native-realm.svg)](https://github.com/RenanBorba/react-native-realm) [![Build Status](https://img.shields.io/github/forks/RenanBorba/react-native-realm.svg)](https://github.com/RenanBorba/react-native-realm) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![npm version](https://badge.fury.io/js/react-native.svg)](https://badge.fury.io/js/react-native) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+<br>
+
+![realm](https://user-images.githubusercontent.com/48495838/85883255-0fc9c100-b7b7-11ea-99e4-3a29087d219d.jpg)
 
 </div>
 
@@ -265,8 +269,3 @@ export default function Main() {
 ![2](https://user-images.githubusercontent.com/48495838/69454082-1cc79300-0d44-11ea-941b-a7170af6f198.JPG)
 
 </div>
-
-<br><br>
-<br>
-
-Renan Borba.
