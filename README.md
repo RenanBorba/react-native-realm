@@ -72,7 +72,7 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
 </ul>
 <br><br><br>
 
-## :mega: ⬇ Abaixo as principais estruturas e interface principal:
+## :mega: ⬇ Abaixo, as principais estruturas e interface principal:
 
 <br><br><br>
 
