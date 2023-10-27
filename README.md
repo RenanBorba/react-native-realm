@@ -12,7 +12,7 @@
 
 <br>
 
-![realm](https://user-images.githubusercontent.com/48495838/85883255-0fc9c100-b7b7-11ea-99e4-3a29087d219d.jpg)
+![logo-realmio](https://github.com/RenanBorba/react-native-realm/assets/48495838/89af9f3f-1503-4ae7-a453-ae63a7f1d551)
 
 </div>
 
@@ -33,7 +33,7 @@ Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca 
 ## :rocket: Tecnologias
 <ul>
   <li>Components</li>
-  <li>Realm</li>
+  <li>Realm.io</li>
   <li>Axios</li>
   <li>Github API</li>
   <li>FlatList</li>
