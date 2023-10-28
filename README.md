@@ -18,7 +18,7 @@
 
 <br>
 
-Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca de respositórios no Github, permitindo assim adicionar repositórios ao aplicativo e consultá-los de maneira offline.
+Aplicação Front-end Mobile desenvolvida em React Native, voltada para a busca de respositórios no Github, permitindo, assim, adicionar repositórios ao aplicativo e consultá-los de maneira offline.
 
 <br><br>
 
